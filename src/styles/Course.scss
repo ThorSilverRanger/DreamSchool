@@ -1,0 +1,53 @@
+.mathematics-course {
+    padding: 20px;
+  }
+  
+  .mathematics-course h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .persons {
+    margin-top: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .persons ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .persons li {
+    margin-bottom: 10px;
+  }
+  
+  .person-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .person-link:hover {
+    color: #007bff;
+  }
+
+  .person-photo-sm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }

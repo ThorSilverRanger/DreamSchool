@@ -1,0 +1,37 @@
+.person-page {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .person-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .person-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .lesson-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lesson-item {
+    margin-bottom: 10px;
+  }
+  
+  .lesson-button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  
