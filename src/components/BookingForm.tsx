@@ -2,15 +2,9 @@ import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import '../styles/BookingForm.scss';
 
-interface Lesson {
-  id: number;
-  date: string;
-  time: string;
-}
-
 const BookingForm: React.FC = () => {
   const navigate = useNavigate();
-  const location = useLocation<{ lesson: Lesson }>();
+  const location = useLocation();
 
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
