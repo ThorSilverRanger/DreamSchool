@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.scss';
+import Welcome from './Welcome';
 
 const courses = [
   { id: 1, title: 'Математика' },
@@ -16,6 +17,7 @@ const courses = [
 const Home: React.FC = () => {
   return (
     <div>
+      <Welcome />
       <h1>Наші курси</h1>
       <div className="course-cards">
         {courses.map((course) => (

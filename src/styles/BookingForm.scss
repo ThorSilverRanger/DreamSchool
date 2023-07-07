@@ -1,12 +1,18 @@
+@import "variables";
+
 .booking-form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    background-color: $pink;
+    border-radius: 1rem;
+    padding: 10px;
+    box-shadow: $grey 10px 10px 10px;
   
     .form-field {
       display: flex;
       flex-direction: column;
-      margin-bottom: 10px;
+      margin: 10px;
       width: 80%;
   
       label {
@@ -16,10 +22,18 @@
       input,
       textarea {
         padding: 5px;
+        border-radius: 10px;
       }
     }
   
     .submit-button {
       margin-top: 20px;
+      background-color: $purple;
+      color: #fff;
     }
-  }  
+
+    .textarea {
+      resize: none;
+      height: 10em;
+    }
+  } 

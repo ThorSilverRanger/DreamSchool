@@ -1,13 +1,19 @@
-// Home.scss
+@import "variables";
+
 .course-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
 
   .course-card {
-    background-color: #f2f2f2;
+    background-color: $purple;
+    color: #fff;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+  }
+
+  .course-card:hover {
+    box-shadow: $orange 5px 5px;
   }
 }

@@ -7,13 +7,11 @@ import './styles/styles.scss';
 import PersonPage from './components/PersonPage';
 import BookingForm from './components/BookingForm';
 import Header from './components/Header';
-import Welcome from './components/Welcome';
 
 const App: React.FC = () => {
   return (
     <Router>
       <Header/>
-      <Welcome />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/course/:courseId" element={<MathematicsCourse />} />

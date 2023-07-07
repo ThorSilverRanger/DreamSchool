@@ -1,3 +1,5 @@
+@import "variables";
+
 :root {
   background-image: url(/public/img/background.jpg);
   background-size: contain;
@@ -17,7 +19,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: $purple;
   text-decoration: inherit;
 }
 a:hover {
@@ -25,6 +27,7 @@ a:hover {
 }
 
 h1 {
+  color: $h1;
   font-size: 3.2em;
   line-height: 1.1;
 }

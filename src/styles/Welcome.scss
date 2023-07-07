@@ -1,3 +1,5 @@
+@import "variables";
+
 .welcome {
     display: flex;
     justify-content: space-between;
@@ -23,5 +25,10 @@
       order: -1;
       margin-bottom: 20px;
     }
+  }
+
+  .author {
+    color: $pink;
+    text-align: right;
   }
   

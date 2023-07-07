@@ -52,39 +52,33 @@ const BookingForm: React.FC = () => {
   };
 
   return (
+    <div>
+    <h2>Зарезервувати заняття</h2>
     <form className="booking-form" onSubmit={handleSubmit}>
-      <h2>Зарезервувати заняття</h2>
+    
       <div className="form-field">
-        <label htmlFor="name">Name:</label>
+          <label htmlFor="date">Дата:</label>
+          <input type="text" id="date" value={date} onChange={(e) => setDate(e.target.value)} readOnly required />
+          <label htmlFor="time">Час:</label>
+          <input type="text" id="time" value={time} onChange={(e) => setTime(e.target.value)} readOnly required />
+        </div>
+      <div className="form-field">
+        <label htmlFor="name">Ваше ім'я:</label>
         <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} required />
-      </div>
-      <div className="form-field">
-        <label htmlFor="phone">Phone:</label>
+        <label htmlFor="phone">Телефон:</label>
         <input type="tel" id="phone" value={phone} onChange={(e) => setPhone(e.target.value)} required />
-      </div>
-      <div className="form-field">
         <label htmlFor="email">Email:</label>
         <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
       </div>
       <div className="form-field">
-      <label htmlFor="additional-details">Additional Details:</label>
-<textarea
-  id="additional-details"
-  value={additionalDetails}
-  onChange={(e) => setAdditionalDetails(e.target.value)}
-  style={{ resize: 'vertical' }}
-/>
+        <label htmlFor="additional-details">Додаткова інформація:</label>
+        <textarea className='textarea'
+          id="additional-details"
+          value={additionalDetails}
+          onChange={(e) => setAdditionalDetails(e.target.value)}
+          
+        />
       </div>
-      <div className="form-field">
-        <label htmlFor="date">Date:</label>
-        <input type="text" id="date" value={date} onChange={(e) => setDate(e.target.value)} readOnly required />
-      </div>
-      <div className="form-field">
-        <label htmlFor="time">Time:</label>
-        <input type="text" id="time" value={time} onChange={(e) => setTime(e.target.value)} readOnly required />
-      </div>
-      <button className="submit-button" type="submit">Submit</button>
-
       {showModal && (
         <div className="modal">
           <div className="modal-content">
@@ -93,7 +87,11 @@ const BookingForm: React.FC = () => {
           </div>
         </div>
       )}
+      <div>
+      <button className="submit-button" type="submit">Зарезервувати</button>
+      </div>
     </form>
+    </div>
   );
 };
 

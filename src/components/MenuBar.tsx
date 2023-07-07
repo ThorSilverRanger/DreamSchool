@@ -29,9 +29,6 @@ const MenuBar: React.FC = () => {
         <li>
           <Link to="/contact" className="menu-link">Контакти</Link>
         </li>
-        <li>
-          <Link to="/signup" className="menu-link sign-up">Зареєструватися</Link>
-        </li>
       </ul>
     </nav>
   );
