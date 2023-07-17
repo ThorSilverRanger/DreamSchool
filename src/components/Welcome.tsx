@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Welcome.scss';
-
+import photo from '/img/welcome.webp'
 const Welcome: React.FC = () => {
   return (
     <div className="welcome">
@@ -9,7 +9,7 @@ const Welcome: React.FC = () => {
         <p className="author">— Бенджамін Франклін (Benjamin Franklin)</p>
       </div>
       <div className="welcome-photo">
-        <img src="/img/welcome.png" alt="Welcome" />
+        <img src={photo} alt="Welcome" />
       </div>
     </div>
   );

@@ -24,7 +24,7 @@ const MenuBar: React.FC = () => {
           <Link to="/about" className="menu-link">Про нас</Link>
         </li>
         <li>
-          <Link to="/teachers" className="menu-link">Наші педагоги</Link>
+          <Link to="/our-teachers" className="menu-link">Наші педагоги</Link>
         </li>
         <li>
           <Link to="/contact" className="menu-link">Контакти</Link>

@@ -3,33 +3,12 @@
     {
       "id": 1,
       "title": "Математика",
+      "section": "Шкільний",
       "persons": [
         {
           "id": 1,
           "name": "Андрій Мисковець",
-          "photo": "/img/amyskovets.jpg",
-          "lessons": [
-            {
-              "id": 1,
-              "date": "2023-07-10",
-              "time": "09:00"
-            },
-            {
-              "id": 2,
-              "date": "2023-07-12",
-              "time": "14:00"
-            },
-            {
-              "id": 3,
-              "date": "2023-07-15",
-              "time": "16:30"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Andrew Myskovets",
-          "photo": "/img/amyskovets.jpg",
+          "photo": "/img/person/amyskovets.jpg",
           "lessons": [
             {
               "id": 1,
@@ -53,11 +32,12 @@
     {
       "id": 2,
       "title": "Українська мова",
+      "section": "Шкільний",
       "persons": [
         {
           "id": 2,
           "name": "Олена Петренко",
-          "photo": "/img/person-no.png",
+          "photo": "/img/person/person-no.png",
           "lessons": [
             {
               "id": 4,
@@ -81,11 +61,12 @@
     {
       "id": 3,
       "title": "Українська література",
+      "section": "Шкільний",
       "persons": [
         {
           "id": 3,
-          "name": "Іван Коваль",
-          "photo": "/img/vite.svg",
+          "name": "Єлена Івануна",
+          "photo": "/img/person/eivanuna.jpg",
           "lessons": [
             {
               "id": 7,
@@ -109,11 +90,12 @@
     {
       "id": 4,
       "title": "Я досліджую світ",
+      "section": "Шкільний",
       "persons": [
         {
           "id": 4,
-          "name": "Марія Сидоренко",
-          "photo": "/img/vite.svg",
+          "name": "Валентина Артамощенко",
+          "photo": "/img/person/vartamoshcenko.jpg",
           "lessons": [
             {
               "id": 10,
@@ -137,11 +119,12 @@
     {
        "id": 5,
       "title": "Біологія",
+      "section": "Шкільний",
       "persons": [
         {
           "id": 5,
           "name": "Поліна Білун",
-          "photo": "/img/vite.svg",
+          "photo": "/img/person/person-no.png",
           "lessons": [
             {
               "id": 13,
@@ -165,11 +148,12 @@
     {
       "id": 6,
       "title": "Історія України",
+      "section": "Шкільний",
       "persons": [
         {
           "id": 6,
-          "name": "Олександр Григорович",
-          "photo": "/img/vite.svg",
+          "name": "Роман Овсюк",
+          "photo": "/img/person/rovsuk.jpg",
           "lessons": [
             {
               "id": 16,
@@ -193,11 +177,12 @@
     {
       "id": 7,
       "title": "Географія",
+      "section": "Шкільний",
       "persons": [
         {
           "id": 7,
           "name": "Марина Василенко",
-          "photo": "/img/vite.svg",
+          "photo": "/img/person/person-no.png",
           "lessons": [
             {
               "id": 19,
@@ -211,6 +196,151 @@
             },
             {
               "id": 21,
+              "date": "2023-07-21",
+              "time": "17:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Хімія",
+      "section": "Шкільний",
+      "persons": [
+        {
+          "id": 8,
+          "name": "Марина Василенко",
+          "photo": "/img/person/person-no.png",
+          "lessons": [
+            {
+              "id": 22,
+              "date": "2023-07-16",
+              "time": "11:00"
+            },
+            {
+              "id": 23,
+              "date": "2023-07-18",
+              "time": "14:30"
+            },
+            {
+              "id": 24,
+              "date": "2023-07-21",
+              "time": "17:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Творимо Всесвіт",
+      "section": "Мистецький",
+      "persons": [
+        {
+          "id": 9,
+          "name": "Марина Василенко",
+          "photo": "/img/person/person-no.png",
+          "lessons": [
+            {
+              "id": 25,
+              "date": "2023-07-16",
+              "time": "11:00"
+            },
+            {
+              "id": 26,
+              "date": "2023-07-18",
+              "time": "14:30"
+            },
+            {
+              "id": 27,
+              "date": "2023-07-21",
+              "time": "17:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Художні образи",
+      "section": "Мистецький",
+      "persons": [
+        {
+          "id": 10,
+          "name": "Юлія Абрамова",
+          "photo": "/img/person/person-no.png",
+          "lessons": [
+            {
+              "id": 28,
+              "date": "2023-07-16",
+              "time": "11:00"
+            },
+            {
+              "id": 29,
+              "date": "2023-07-18",
+              "time": "14:30"
+            },
+            {
+              "id": 30,
+              "date": "2023-07-21",
+              "time": "17:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Хореографія",
+      "section": "Мистецький",
+      "persons": [
+        {
+          "id": 10,
+          "name": "Анастасія Романенко",
+          "photo": "/img/person/aromanenko.jpg",
+          "lessons": [
+            {
+              "id": 31,
+              "date": "2023-07-16",
+              "time": "11:00"
+            },
+            {
+              "id": 32,
+              "date": "2023-07-18",
+              "time": "14:30"
+            },
+            {
+              "id": 33,
+              "date": "2023-07-21",
+              "time": "17:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Мистецтво музики",
+      "section": "Мистецький",
+      "persons": [
+        {
+          "id": 10,
+          "name": "Юрій Бенгальский",
+          "photo": "/img/person/ubengalsky.jpg",
+          "lessons": [
+            {
+              "id": 31,
+              "date": "2023-07-16",
+              "time": "11:00"
+            },
+            {
+              "id": 32,
+              "date": "2023-07-18",
+              "time": "14:30"
+            },
+            {
+              "id": 33,
               "date": "2023-07-21",
               "time": "17:00"
             }
